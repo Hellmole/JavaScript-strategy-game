@@ -1,4 +1,4 @@
-Age Of Flying Legends
+#Age Of Flying Legends
 
 A simple strategy game inspired by the game Hammurabi, where you control a company that transports passengers by airship. The objective of the game is to manage the company with a fleet of airships until 1952.
 Run the game by downloading all files and executing the HTML file
