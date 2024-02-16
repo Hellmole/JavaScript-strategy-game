@@ -130,7 +130,7 @@
       
       
 
-      // Empty imput = 0
+      // Empty form
 
       if (isNaN(airship_buy)) { airship_buy = 0; }
       if (isNaN(airship_sel)) { airship_sel = 0; }
@@ -142,7 +142,7 @@
       money = money_total - (airship_buy * airship_price) + (airship_sel * airship_price) -  money_pay  - (airship_send * expenses);
       airship = airship_total + airship_buy - airship_sel;
       
-      // calculation workekrs (worker = 100 dolorars/year)
+      // calculation workers (worker = 100 dolorars/year)
       workers_expenses = workers_total * 100 - money_pay;
       if (workers_expenses <= 0) { workers_expenses = 0; }
       
